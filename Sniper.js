@@ -16,7 +16,7 @@ class Sniper {
         this.walletPublicKey = new PublicKey(process.env.WALLET_PUBLIC_KEY);
         this.minimumSolBalance = 0.1;
     }
-
+ 
     setBuyAmount(amount) {
         this.buyAmount = amount;
     }
